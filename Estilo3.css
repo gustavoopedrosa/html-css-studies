@@ -1,0 +1,31 @@
+label, input[type=submit],input[type=text], textarea {
+	display: block;
+
+}
+textarea{
+	width: 300px;
+	height: 80px;
+}
+input[type=submit]{
+	background: #333333;
+	color: #ffffff;
+	cursor: pointer;
+	margin: 10px 230px;
+	border: 0px;
+	padding: 10px 20px;
+}
+input[type=submit]:hover{
+	background: #ff6600;
+}
+#wrap{
+	margin: auto;
+	width: 1000px;
+	background: #e3e3e3;
+	padding: 10px 10px 10px 30px;
+}
+h1{
+	text-align: center;
+	font-family: helvetica;
+	color: blue;
+	font-size: 25px;
+}
